@@ -14,7 +14,7 @@ export default function AddTodo({submitHandler}){
         <View>
             <TextInput style={styles.input} placeholder='New todo ...' onChangeText={changeHamdler} />
 
-            <Button title='add todo' onPress={()=>submitHandler(text)} color={"crimson"}/>
+            <Button title='add todo' onPress={()=>submitHandler(text)} color={"crimson"} />
         </View>
     )
 }
@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         padding: 10,
         borderBottomColor: "grey",
+        borderRadius: 10,
 
     },
 
